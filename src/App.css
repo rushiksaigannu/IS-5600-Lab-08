@@ -1,0 +1,20 @@
+body{
+  /* background-image:`url(${process.env.PUBLIC_URL+ "/back.jpg"})`; */
+  font-family: sans-serif;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../public/back.jpg')
+}
+button{
+  border-radius: 100px;
+  color: white;
+  font-size: 20;
+  background-color:black;
+  font-family: sans-serif;
+}
+table, th, td{
+border: 1px solid black;
+font-weight: bold;
+}
+
